@@ -44,7 +44,9 @@ def main_menu(menu_selection):
         "These must be enough to defeat the pirates."
         )
     elif menu_selection == 'Q':
-        print('Q selected')
+        print(f"Thank you Comander {user_name} for playing Pirate Attack!\n"
+        "I wish you at all times a hand's width of water under your keel and save travels.\n"
+        "See you soon, the next battle is already waiting for you.\n")
     elif  menu_selection == 'P':
         print('P selected')
     else:
